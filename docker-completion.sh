@@ -1,5 +1,5 @@
 yum -y install bash-completion
 
-echo 'source <(kubectl completion bash)' >> ~/.bashrc
+echo 'source <(docker completion bash)' >> ~/.bashrc
 
 source ~/.bashrc
